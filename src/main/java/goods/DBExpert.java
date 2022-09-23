@@ -12,6 +12,20 @@ public class DBExpert {
 	final private String driver = "oracle.jdbc.OracleDriver";
 	final private String url = "jdbc:oracle:thin:@//localhost:1521/xe";
 	
+	public GoodsGuestsList orderListUpdateDo(String id) {
+		String update = "update goods_guests set id = ?, no = ?, o_date = ?"
+				+" where = ?";
+		Connection con = null; PreparedStatement pstmt = null;
+		GoodsGuestsList gg = null;
+		try {
+			
+		}catch(Exception e) {
+			
+		}finally {
+			
+		}
+		return gg;
+	}
 	
 	public GoodsGuestsList orderListDetailView(String id) {
 		String select = "select * from goods_guests where id = ?";

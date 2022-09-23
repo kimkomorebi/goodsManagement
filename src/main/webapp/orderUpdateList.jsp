@@ -14,7 +14,7 @@
 			<%
 			GoodsGuestsList list = (GoodsGuestsList)request.getAttribute("LIST");
 			%>
-			<form action="">
+			<form action="orderUpdate.do" method="post">
 				<table border="1">
 					<tr>
 						<th>상품번호</th>
